@@ -1,0 +1,20 @@
+{
+            "TUBITV2PPGUN_CATEGORY": "Ping Pong Launcher",
+            "TUBITV2PPGUN_INIT": "Initialize Ping Pong Launcher Pan Servo %1, Tilt Servo %2, Launch Servo %3",
+            "TUBITV2SM_0": "S0",
+            "TUBITV2SM_1": "S1",
+            "TUBITV2SM_2": "S2",
+            "TUBITV2SM_3": "S3",
+            "TUBITV2SM_4": "S4",
+            "TUBITV2SM_5": "S5",
+            "TUBITV2SM_6": "S6",
+            "TUBITV2SM_7": "S7",
+            "TUBITV2PPGUN_LAUNCH": "Launch Ping Pong Ball",
+            "TUBITV2PPGUN_TRCONTROLADD": "Rotate pan by %1 degrees",
+            "TUBITV2PPGUN_UDCONTROLADD": "Tilt up/down by %1 degrees",
+            "TUBITV2PPGUN_TRCONTROL": "Rotate pan to %1 degrees,%2s",
+            "TUBITV2PPGUN_UDCONTROL": "Tilt to %1 degrees,%2s",
+            "PPGUN_DEGADD": "Increment Angle Control",
+            "PPGUN_DEGSET": "Set Angle (Smooth Motion)"
+
+}

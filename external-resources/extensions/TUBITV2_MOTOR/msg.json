@@ -1,0 +1,14 @@
+{
+    "TUBITV2_MOTOR_CATEGORY": "MOTOR",
+    "TUBITV2_MOTOR_RUN": "motor %1 speed %2",
+    "TUBITV2_MOTOR_STOP": "all motor stop",
+    "TUBITV2_MOTOR_M1":"M1",
+    "TUBITV2_MOTOR_M2":"M2",
+    "TUBITV2_MOTOR_M3":"M3",
+    "TUBITV2_MOTOR_M4":"M4",
+    "TUBITV2_MOTOR_ALLRUN":"all motor run M1 %1 M2 %2 M3 %3 M4 %4",
+    "TUBITV2_MOTOR_READENC":"read motor %1 encoder",
+    "TUBITV2_MOTOR_RESETENC":"reset all motor encoder",
+    "TUBITV2_MOTOR_SETENC":" set %1 motor encoder  %2"
+
+}

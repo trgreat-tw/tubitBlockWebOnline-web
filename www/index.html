@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TubitBlock Web</title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/png" sizes="192x192" href="favicon-192.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+    <style>
+        body {
+            background-color: #4D97FF;
+        }
+
+        .splash {
+            color: white;
+            font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-size: xx-large;
+            font-weight: bolder;
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+    </style>
+    <!-- Electron shim: provides browser-compatible stubs for ipcRenderer, fs, path, etc. -->
+    <script src="electron-shim.js?v=8"></script>
+    <!-- Web Serial Flasher 模組 -->
+    <script src="web-flasher/SerialManager.js"></script>
+    <script src="web-flasher/Stk500WebFlasher.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/pako@2.1.0/dist/pako.min.js"></script>
+    <script src="web-flasher/Esp32WebFlasher.js"></script>
+    <script src="web-flasher/LinkIntersector.js"></script>
+</head>
+
+<body>
+    <div id="app">
+        <p class="splash">TubitBlock Web is loading...</p>
+    </div>
+    <script src="renderer.js"></script>
+    <script>
+        // 初始化 serialManager 供攔截器使用
+        window.serialManager = new SerialManager((msg) => console.log('[SerialManager]', msg));
+    </script>
+</body>
+
+</html>

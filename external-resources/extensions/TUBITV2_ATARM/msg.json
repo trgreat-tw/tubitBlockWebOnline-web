@@ -1,0 +1,26 @@
+{
+        "TUBITV2ATARM_CATEGORY": "Robot Arm",
+        "TUBITV2ATARM_INIT": "Initialize Robot Arm Horizontal gimbal (pan) motor %1 , Vertical gimbal (lift) motor %2 , Claw motor %3",
+        "TUBITV2SM_0": "S0",
+        "TUBITV2SM_1": "S1",
+        "TUBITV2SM_2": "S2",
+        "TUBITV2SM_3": "S3",
+        "TUBITV2SM_4": "S4",
+        "TUBITV2SM_5": "S5",
+        "TUBITV2SM_6": "S6",
+        "TUBITV2SM_7": "S7",
+        "ATARM_CLAW": "Claw control",
+        "TUBITV2ATARM_SET": "Arm motor parameter settings",
+        "TUBITV2ATARM_CLAWSET":"Claw settings Grab at %1° ,Release at %2°",
+        "TUBITV2ATARM_LIFTSET":"Lift settings Lower at %1° ,Raise at %2°",
+        "TUBITV2ATARM_CLAW":"Claw %1,%2 sec",
+        "TUBITV2CLAW_OP":"Grab",
+        "TUBITV2CLAW_CL":"Release",
+        "TUBITV2ATARM_TRCONTROLADD": "Horizontal gimbal (pan) change %1°",
+        "TUBITV2ATARM_UDCONTROLADD": "Vertical gimbal (lift) change %1°",
+        "TUBITV2ATARM_TRCONTROL": "Horizontal gimbal (pan) to %1° in %2 sec",
+        "TUBITV2ATARM_UDCONTROL": "Vertical gimbal (lift) to %1° in %2 sec",
+        "ATARM_DEGADD": "Incremental angle control",
+        "ATARM_DEGSET": "Direct angle setting (smooth movement)"
+
+}

@@ -1,0 +1,11 @@
+{
+        "TUBITV2_ESPNOW_CATEGORY": "ESP-NOW",
+        "TUBITV2_ESPNOW_INIT": "ESP-NOW 初始化",
+        "TUBITV2_ESPNOW_DEVICE_MAC_ADDR": "此裝置的 MAC 地址",
+        "TUBITV2_ESPNOW_ADD_PEER": "在通訊清單中加入 MAC : %1 頻道 : %2",
+        "TUBITV2_ESPNOW_SEND": "傳送到 MAC : %1 資料 : %2",
+        "TUBITV2_ESPNOW_BROADCAST": "向所有設備廣播資料 : %1",
+        "TUBITV2_ESPNOW_ON_RECV": "收到封包時執行 %1",
+        "TUBITV2_ESPNOW_ON_SEND": "傳送封包時執行 %1",
+        "TUBITV2_ESPNOW_GET_RECV_DATA": "接收到的資料"
+}

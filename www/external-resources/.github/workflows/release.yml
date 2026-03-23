@@ -1,0 +1,177 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+    paths-ignore:
+      - 'README.md'
+
+jobs:
+  create-release:
+    runs-on: ubuntu-latest
+    outputs:
+      id: ${{ steps.create_release.outputs.id }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+            submodules: true
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '16.x'
+
+      - run: npm i -g tubitblock-resource@latest
+
+      - name: Pre-process resources
+        run: |
+          npm ci
+          npm run build
+          gen-config --version=${{ github.ref_name }}
+
+      - name: Get version
+        id: get-version
+        run: |
+          version=`echo ${{ github.ref_name }} | sed -r 's/[v]+//g'`
+          echo ::set-output name=VERSION::$version
+
+      - name: Clear Unused files
+        run: |
+          rm -rf .git .github .DS_Store translations node_modules buildResources dist
+
+      - name: Zip resources
+        uses: vimtor/action-zip@v1
+        with:
+            files: ./
+            dest: external-resources-${{ steps.get-version.outputs.VERSION }}.zip
+
+      - name: Checksum
+        run: sha256sum external-resources-*.zip >> ${{ steps.get-version.outputs.VERSION }}-checksums-sha256.txt
+
+      - name: Create Release
+        id: create_release
+        uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          tag_name: ${{ github.ref_name }}
+          release_name: TUbitBlock External Resources ${{ github.ref_name }}
+          body: |
+            ## Change Log (en)
+
+            - **New feature**
+
+                1. Feature 1.
+                2. Feature 2.
+
+            - **Fix bug**
+
+                1. Bug 1.
+                2. Bug 2.
+
+            ## 更改日志 (zh-cn)
+
+            - **新功能**
+
+                1. 功能1。
+                2. 功能2。
+
+            - **修复错误**
+
+                1. 错误1。
+                2. 错误2。
+          draft: true
+          prerelease: false
+
+      - name: Upload Zip
+        uses: xresloader/upload-to-github-release@v1
+        env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+            file: "external-resources-*.zip"
+            release_id: ${{steps.create_release.outputs.id}}
+
+      - name: Upload Checksum
+        uses: xresloader/upload-to-github-release@v1
+        env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+            file: "*-checksums-sha256.txt"
+            release_id: ${{steps.create_release.outputs.id}}
+
+  build-windows:
+    needs: create-release
+    runs-on: windows-2019
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install Inno Setup
+        shell: powershell
+        run: |
+            choco install innosetup --version=5.6.1 --allow-downgrade
+
+      - name: Get version
+        id: get-version
+        run: |
+          $tag = "${{ github.ref_name }}"
+          $version = $tag.Substring(1)
+          Write-Output "::set-output name=VERSION::$version"
+
+      - name: Build Installer
+        shell: powershell
+        run: |
+            & "C:\Program Files (x86)\Inno Setup 5\ISCC.exe" /dVERSION="${{ steps.get-version.outputs.VERSION }}" "./buildResources/setup.iss"
+
+      - name: Upload to Release
+        uses: xresloader/upload-to-github-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          file: "./dist/TUbitBlock-External-Resources*"
+          release_id: ${{needs.create-release.outputs.id}}
+
+  build-mac:
+    needs: create-release
+    runs-on: macos-13
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get version
+        id: get-version
+        run: |
+          version=`echo ${{ github.ref_name }} | sed -r 's/[v]+//g'`
+          echo ::set-output name=VERSION::$version
+
+      - name: Build Installer
+        run: ./buildResources/build-pkg.sh VERSION="${{ steps.get-version.outputs.VERSION }}"
+
+      - name: Upload to Release
+        uses: xresloader/upload-to-github-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          file: "./dist/TUbitBlock-External-Resources*"
+          release_id: ${{needs.create-release.outputs.id}}
+
+  build-linux:
+    needs: create-release
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Get version
+        id: get-version
+        run: |
+          version=`echo ${{ github.ref_name }} | sed -r 's/[v]+//g'`
+          echo ::set-output name=VERSION::$version
+
+      - name: Build Installer
+        run: ./buildResources/build-deb.sh VERSION="${{ steps.get-version.outputs.VERSION }}"
+
+      - name: Upload to Release
+        uses: xresloader/upload-to-github-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          file: "./dist/TUbitBlock-External-Resources*"
+          release_id: ${{needs.create-release.outputs.id}}

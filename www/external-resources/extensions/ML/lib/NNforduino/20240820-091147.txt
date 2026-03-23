@@ -1,0 +1,107 @@
+#include <Wire.h>
+#include <MPU6050.h>
+#include "NNforduino.h"
+
+#define BUTTON_PIN 2
+#define NUM_SAMPLES 30
+
+MPU6050 mpu;
+NNforduino NN;
+
+float ax_samples[NUM_SAMPLES];
+float ay_samples[NUM_SAMPLES];
+float az_samples[NUM_SAMPLES];
+float gx_samples[NUM_SAMPLES];
+float gy_samples[NUM_SAMPLES];
+float gz_samples[NUM_SAMPLES];
+
+bool isRecording = false;
+int sampleIndex = 0;
+
+void setup() {
+  Serial.begin(115200);
+  Wire.begin();
+
+  pinMode(BUTTON_PIN, INPUT_PULLUP);  // 使用內部上拉電阻
+  attachInterrupt(digitalPinToInterrupt(BUTTON_PIN), startRecording, FALLING);
+
+  // 初始化 MPU6050
+  if (!mpu.begin()) {
+    Serial.println("Failed to find MPU6050 chip");
+    while (1);
+  }
+  mpu.calcOffsets();
+
+  // 初始化雙層神經網路
+  NN.TwolayerNN(RELU, RELU);
+  NN.InitTNN(RAN);
+
+  // 訓練數據 (假設已經收集了數據)
+  String learndata = "0.1,1:0.3,1:0.5,2:0.7,2:0.9,3:1.1,3";
+
+  // 訓練神經網路
+  if (NN.LearnTNN(learndata, 0.01, 10000)) {
+    Serial.println("Training completed.");
+  } else {
+    Serial.println("Training failed.");
+  }
+}
+
+void loop() {
+  if (isRecording) {
+    if (sampleIndex < NUM_SAMPLES) {
+      // 讀取 MPU6050 數據
+      ax_samples[sampleIndex] = mpu.getAccX();
+      ay_samples[sampleIndex] = mpu.getAccY();
+      az_samples[sampleIndex] = mpu.getAccZ();
+      gx_samples[sampleIndex] = mpu.getGyroX();
+      gy_samples[sampleIndex] = mpu.getGyroY();
+      gz_samples[sampleIndex] = mpu.getGyroZ();
+      sampleIndex++;
+
+      Serial.println("Recording sample...");
+    } else {
+      // 結束記錄，開始計算
+      isRecording = false;
+      Serial.println("Recording finished. Processing...");
+
+      // 計算輸入向量的平均值作為神經網路的輸入 (可根據需要修改)
+      float ax_mean = calculateMean(ax_samples, NUM_SAMPLES);
+      float ay_mean = calculateMean(ay_samples, NUM_SAMPLES);
+      float az_mean = calculateMean(az_samples, NUM_SAMPLES);
+      float gx_mean = calculateMean(gx_samples, NUM_SAMPLES);
+      float gy_mean = calculateMean(gy_samples, NUM_SAMPLES);
+      float gz_mean = calculateMean(gz_samples, NUM_SAMPLES);
+
+      // 將這些平均值輸入神經網路
+      double input = (ax_mean + ay_mean + az_mean + gx_mean + gy_mean + gz_mean) / 6.0;
+      double gesture = NN.OutTNN(input);
+
+      // 打印結果
+      Serial.print("Predicted Gesture: ");
+      Serial.println(gesture);
+
+      sampleIndex = 0;  // 重置索引，準備下一次記錄
+    }
+  }
+
+  delay(10);  // 小延遲，防止CPU過載
+}
+
+// 中斷服務程序，按下按鈕時開始記錄
+void startRecording() {
+  if (!isRecording) {
+    isRecording = true;
+    sampleIndex = 0;
+    Serial.println("Recording started...");
+  }
+}
+
+// 計算數組平均值的輔助函數
+float calculateMean(float* samples, int numSamples) {
+  float sum = 0;
+  for (int i = 0; i < numSamples; i++) {
+    sum += samples[i];
+  }
+  return sum / numSamples;
+}

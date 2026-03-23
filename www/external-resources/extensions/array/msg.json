@@ -1,0 +1,13 @@
+{
+        "TUBITV2_ARRAY_CATEGORY": "Array",
+        "TUBITV2_ARRAY_CREATE": "Create %1%2 array %3, array size %4",
+        "TUBITV2_ARRAY_GLOBAL": "global",
+        "TUBITV2_ARRAY_STATIC": "static",
+        "TUBITV2_ARRAY_INT": "integer",
+        "TUBITV2_ARRAY_LONG": "long integer",
+        "TUBITV2_ARRAY_DOUBLE": "double precision",
+        "TUBITV2_ARRAY_STRING": "string",
+        "TUBITV2_ARRAY_READ": "Read array %1 at index %2",
+        "TUBITV2_ARRAY_SET": "Set array %1 at index %2 to %3",
+        "TUBITV2_ARRAY_SIZE": "Array %1 length"
+}

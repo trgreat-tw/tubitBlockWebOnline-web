@@ -1,0 +1,1494 @@
+[
+  {
+    "name": "tubittask.description",
+    "extensionId": "tubittask",
+    "iconURL": "extensions/ESP32_TASK/assets/task.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HONG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/ESP32_TASK/blocks.js",
+    "generator": "extensions/ESP32_TASK/generator.js",
+    "toolbox": "extensions/ESP32_TASK/toolbox.js",
+    "translations": "extensions/ESP32_TASK/translations.js",
+    "hide": true,
+    "tags": [
+      "kit"
+    ]
+  },
+  {
+    "name": "Sharp IR Sensor",
+    "extensionId": "sharpIR",
+    "iconURL": "extensions/ESP32sharpIR/assets/sharpIR.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/ESP32sharpIR/blocks.js",
+    "generator": "extensions/ESP32sharpIR/generator.js",
+    "toolbox": "extensions/ESP32sharpIR/toolbox.js",
+    "translations": "extensions/ESP32sharpIR/translations.js",
+    "tags": [
+      "sensor"
+    ]
+  },
+  {
+    "name": "MMMLLL",
+    "extensionId": "tubitv2MLLL",
+    "iconURL": "extensions/ML/assets/AI.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HONG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/ML/blocks.js",
+    "generator": "extensions/ML/generator.js",
+    "toolbox": "extensions/ML/toolbox.js",
+    "translations": "extensions/ML/translations.js",
+    "hide": true,
+    "tags": [
+      "kit"
+    ]
+  },
+  {
+    "name": "PS3 Controller",
+    "extensionId": "ps3_controller",
+    "iconURL": "extensions/PS3/assets/ps3.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "鴻兔科技",
+    "supportDevice": [
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/PS3/blocks.js",
+    "generator": "extensions/PS3/generator.js",
+    "toolbox": "extensions/PS3/toolbox.js",
+    "translations": "extensions/PS3/translations.js",
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "name": "PS4 Controller",
+    "extensionId": "ps4_controller",
+    "iconURL": "extensions/PS4/assets/ps4.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "YC",
+    "supportDevice": [
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/PS4/blocks.js",
+    "generator": "extensions/PS4/generator.js",
+    "toolbox": "extensions/PS4/toolbox.js",
+    "translations": "extensions/PS4/translations.js",
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "name": "atarm Remote",
+    "extensionId": "tubitv2atarm",
+    "iconURL": "extensions/TUBITV2_ATARM/assets/atarm.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HONG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/TUBITV2_ATARM/blocks.js",
+    "generator": "extensions/TUBITV2_ATARM/generator.js",
+    "toolbox": "extensions/TUBITV2_ATARM/toolbox.js",
+    "translations": "extensions/TUBITV2_ATARM/translations.js",
+    "tags": [
+      "kit"
+    ]
+  },
+  {
+    "name": "TUBIT V2 BUTTON",
+    "extensionId": "tubitv2b",
+    "iconURL": "extensions/TUBITV2_BUTTON/assets/TUBITV2.jpg",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HONG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/TUBITV2_BUTTON/blocks.js",
+    "generator": "extensions/TUBITV2_BUTTON/generator.js",
+    "toolbox": "extensions/TUBITV2_BUTTON/toolbox.js",
+    "translations": "extensions/TUBITV2_BUTTON/translations.js",
+    "hide": true,
+    "tags": [
+      "kit"
+    ]
+  },
+  {
+    "name": "TUBIT V2 DTC V1 ROBOT",
+    "extensionId": "tubitv2dtc",
+    "iconURL": "extensions/TUBITV2_DTC/assets/dtcv1.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HUNG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/TUBITV2_DTC/blocks.js",
+    "generator": "extensions/TUBITV2_DTC/generator.js",
+    "toolbox": "extensions/TUBITV2_DTC/toolbox.js",
+    "translations": "extensions/TUBITV2_DTC/translations.js",
+    "tags": [
+      "kit"
+    ]
+  },
+  {
+    "name": "TUBIT V2 MOTOR",
+    "extensionId": "tubitv2m",
+    "iconURL": "extensions/TUBITV2_MOTOR/assets/TUBITV2.jpg",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HUNG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/TUBITV2_MOTOR/blocks.js",
+    "generator": "extensions/TUBITV2_MOTOR/generator.js",
+    "toolbox": "extensions/TUBITV2_MOTOR/toolbox.js",
+    "translations": "extensions/TUBITV2_MOTOR/translations.js",
+    "hide": true,
+    "tags": [
+      "kit"
+    ]
+  },
+  {
+    "name": "TUBIT V2 MTC V2 ROBOT",
+    "extensionId": "tubitv2mtc",
+    "iconURL": "extensions/TUBITV2_MTC/assets/mtcv2.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HUNG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/TUBITV2_MTC/blocks.js",
+    "generator": "extensions/TUBITV2_MTC/generator.js",
+    "toolbox": "extensions/TUBITV2_MTC/toolbox.js",
+    "translations": "extensions/TUBITV2_MTC/translations.js",
+    "tags": [
+      "kit"
+    ]
+  },
+  {
+    "name": "TUBIT V2 OLED",
+    "extensionId": "tubitv2o",
+    "iconURL": "extensions/TUBITV2_OLED/assets/TUBITV2_OLED.jpg",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HUNG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/TUBITV2_OLED/blocks.js",
+    "generator": "extensions/TUBITV2_OLED/generator.js",
+    "toolbox": "extensions/TUBITV2_OLED/toolbox.js",
+    "translations": "extensions/TUBITV2_OLED/translations.js",
+    "hide": true,
+    "tags": [
+      "kit"
+    ]
+  },
+  {
+    "name": "TUBIT V2 OTC V2 ROBOT",
+    "extensionId": "tubitv2otc",
+    "iconURL": "extensions/TUBITV2_OTC/assets/otcv2.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HUNG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/TUBITV2_OTC/blocks.js",
+    "generator": "extensions/TUBITV2_OTC/generator.js",
+    "toolbox": "extensions/TUBITV2_OTC/toolbox.js",
+    "translations": "extensions/TUBITV2_OTC/translations.js",
+    "tags": [
+      "kit"
+    ]
+  },
+  {
+    "name": "ppgun Remote",
+    "extensionId": "tubitv2ppgun",
+    "iconURL": "extensions/TUBITV2_PPGUN/assets/ppgun.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HONG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/TUBITV2_PPGUN/blocks.js",
+    "generator": "extensions/TUBITV2_PPGUN/generator.js",
+    "toolbox": "extensions/TUBITV2_PPGUN/toolbox.js",
+    "translations": "extensions/TUBITV2_PPGUN/translations.js",
+    "tags": [
+      "kit"
+    ]
+  },
+  {
+    "name": "TUBIT V2 SERVO MOTOR",
+    "extensionId": "tubitv2sm",
+    "iconURL": "extensions/TUBITV2_SERVOMOTOR/assets/TUBITV2.jpg",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HUNG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/TUBITV2_SERVOMOTOR/blocks.js",
+    "generator": "extensions/TUBITV2_SERVOMOTOR/generator.js",
+    "toolbox": "extensions/TUBITV2_SERVOMOTOR/toolbox.js",
+    "translations": "extensions/TUBITV2_SERVOMOTOR/translations.js",
+    "hide": true,
+    "tags": [
+      "kit"
+    ]
+  },
+  {
+    "name": "TUBIT V2 SET",
+    "extensionId": "tubitv2",
+    "iconURL": "extensions/TUBITV2_SET/assets/TUBITV2.jpg",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HONG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/TUBITV2_SET/blocks.js",
+    "generator": "extensions/TUBITV2_SET/generator.js",
+    "toolbox": "extensions/TUBITV2_SET/toolbox.js",
+    "translations": "extensions/TUBITV2_SET/translations.js",
+    "hide": true,
+    "tags": [
+      "kit"
+    ]
+  },
+  {
+    "name": "Proximity, Light, RGB, and Gesture Sensor which uses an I2C interface.",
+    "extensionId": "apds9960",
+    "iconURL": "extensions/apds9960/assets/apds9960.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/apds9960/blocks.js",
+    "generator": "extensions/apds9960/generator.js",
+    "toolbox": "extensions/apds9960/toolbox.js",
+    "translations": "extensions/apds9960/translations.js",
+    "tags": [
+      "sensor"
+    ]
+  },
+  {
+    "name": "arduinoDeviceDemo",
+    "extensionId": "arduinoDeviceDemo",
+    "iconURL": "extensions/arduinoDeviceDemo/",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "TUbitBlock",
+    "supportDevice": [
+      "deviceDemo_arduinoEsp32"
+    ],
+    "blocks": "extensions/arduinoDeviceDemo/blocks.js",
+    "generator": "extensions/arduinoDeviceDemo/generator.js",
+    "toolbox": "extensions/arduinoDeviceDemo/toolbox.js",
+    "translations": "extensions/arduinoDeviceDemo/translations.js",
+    "hide": true
+  },
+  {
+    "name": "tubitv2array.description",
+    "extensionId": "tubitv2array",
+    "iconURL": "extensions/array/assets/TUBITV2.jpg",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HONG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/array/blocks.js",
+    "generator": "extensions/array/generator.js",
+    "toolbox": "extensions/array/toolbox.js",
+    "translations": "extensions/array/translations.js",
+    "hide": true,
+    "tags": [
+      "kit"
+    ]
+  },
+  {
+    "name": "BLYNK IOT",
+    "extensionId": "tubitv2blynk",
+    "iconURL": "extensions/blynk/assets/tubitv2blynk.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HUNG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/blynk/blocks.js",
+    "generator": "extensions/blynk/generator.js",
+    "toolbox": "extensions/blynk/toolbox.js",
+    "translations": "extensions/blynk/translations.js",
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "name": "BNO055 9軸感測模組",
+    "extensionId": "tubitv2bno055",
+    "iconURL": "extensions/bno055/assets/tubitv2bno055.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HUNG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/bno055/blocks.js",
+    "generator": "extensions/bno055/generator.js",
+    "toolbox": "extensions/bno055/toolbox.js",
+    "translations": "extensions/bno055/translations.js",
+    "tags": [
+      "sensor"
+    ]
+  },
+  {
+    "name": "Chinese TTS",
+    "extensionId": "chineseTTS",
+    "iconURL": "extensions/chineseTTS/assets/chineseTTS.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/chineseTTS/blocks.js",
+    "generator": "extensions/chineseTTS/generator.js",
+    "toolbox": "extensions/chineseTTS/toolbox.js",
+    "translations": "extensions/chineseTTS/translations.js",
+    "tags": [
+      "actuator"
+    ]
+  },
+  {
+    "name": "Cooperative Scheduler",
+    "extensionId": "cooperativeScheduler",
+    "iconURL": "extensions/cooperativeScheduler/assets/cooperativeScheduler.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560"
+    ],
+    "blocks": "extensions/cooperativeScheduler/blocks.js",
+    "generator": "extensions/cooperativeScheduler/generator.js",
+    "toolbox": "extensions/cooperativeScheduler/toolbox.js",
+    "translations": "extensions/cooperativeScheduler/translations.js",
+    "tags": [
+      "other"
+    ]
+  },
+  {
+    "name": "DeepSeek",
+    "extensionId": "deepseek",
+    "iconURL": "extensions/deepseek/assets/deepseek.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "translations": "extensions/deepseek/translations.js",
+    "main": "extensions/deepseek/main.js",
+    "tags": [
+      "other"
+    ]
+  },
+  {
+    "name": "DHT Sensor",
+    "extensionId": "dht",
+    "iconURL": "extensions/dht/assets/dht.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/dht/blocks.js",
+    "generator": "extensions/dht/generator.js",
+    "toolbox": "extensions/dht/toolbox.js",
+    "translations": "extensions/dht/translations.js",
+    "tags": [
+      "sensor"
+    ]
+  },
+  {
+    "name": "DS18B20 Sensor",
+    "extensionId": "ds18b20",
+    "iconURL": "extensions/ds18b20/assets/ds18b20.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/ds18b20/blocks.js",
+    "generator": "extensions/ds18b20/generator.js",
+    "toolbox": "extensions/ds18b20/toolbox.js",
+    "translations": "extensions/ds18b20/translations.js",
+    "tags": [
+      "sensor"
+    ]
+  },
+  {
+    "name": "8-Digit Display",
+    "extensionId": "eightDigitDisplay",
+    "iconURL": "extensions/eightDigitDisplay/assets/eightDigitDisplay.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp8266",
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/eightDigitDisplay/blocks.js",
+    "generator": "extensions/eightDigitDisplay/generator.js",
+    "toolbox": "extensions/eightDigitDisplay/toolbox.js",
+    "translations": "extensions/eightDigitDisplay/translations.js",
+    "tags": [
+      "display"
+    ]
+  },
+  {
+    "name": "8x8 Matrix Display",
+    "extensionId": "eitghtTimesEightMatirxDisplay",
+    "iconURL": "extensions/eitghtTimesEightMatirxDisplay/assets/eitghtTimesEightMatirxDisplay.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp8266",
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/eitghtTimesEightMatirxDisplay/blocks.js",
+    "generator": "extensions/eitghtTimesEightMatirxDisplay/generator.js",
+    "toolbox": "extensions/eitghtTimesEightMatirxDisplay/toolbox.js",
+    "translations": "extensions/eitghtTimesEightMatirxDisplay/translations.js",
+    "tags": [
+      "display"
+    ]
+  },
+  {
+    "name": "Ultrasonic",
+    "extensionId": "espUltrasonic",
+    "iconURL": "extensions/espUltrasonic/assets/ultrasonic.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "microPythonEsp32",
+      "microPythonEsp8266"
+    ],
+    "blocks": "extensions/espUltrasonic/blocks.js",
+    "generator": "extensions/espUltrasonic/generator.js",
+    "toolbox": "extensions/espUltrasonic/toolbox.js",
+    "translations": "extensions/espUltrasonic/translations.js",
+    "tags": [
+      "sensor"
+    ]
+  },
+  {
+    "name": "ESP-NOW",
+    "extensionId": "tubitv2_espnow",
+    "iconURL": "extensions/espnow/assets/espnow.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HONG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/espnow/blocks.js",
+    "generator": "extensions/espnow/generator.js",
+    "toolbox": "extensions/espnow/toolbox.js",
+    "translations": "extensions/espnow/translations.js",
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "name": "火焰感測器",
+    "extensionId": "tubitv2flamesensor",
+    "iconURL": "extensions/flame/assets/tubitv2flamesensor.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HUNG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/flame/blocks.js",
+    "generator": "extensions/flame/generator.js",
+    "toolbox": "extensions/flame/toolbox.js",
+    "translations": "extensions/flame/translations.js",
+    "tags": [
+      "sensor"
+    ]
+  },
+  {
+    "name": "4-Digit Clock Display",
+    "extensionId": "fourDigitClockDisplay",
+    "iconURL": "extensions/fourDigitClockDisplay/assets/fourDigitClockDisplay.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp8266",
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/fourDigitClockDisplay/blocks.js",
+    "generator": "extensions/fourDigitClockDisplay/generator.js",
+    "toolbox": "extensions/fourDigitClockDisplay/toolbox.js",
+    "translations": "extensions/fourDigitClockDisplay/translations.js",
+    "tags": [
+      "display"
+    ]
+  },
+  {
+    "name": "霍爾感測器",
+    "extensionId": "tubitv2hallsensor",
+    "iconURL": "extensions/hall/assets/tubitv2hallsensor.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HUNG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/hall/blocks.js",
+    "generator": "extensions/hall/generator.js",
+    "toolbox": "extensions/hall/toolbox.js",
+    "translations": "extensions/hall/translations.js",
+    "tags": [
+      "sensor"
+    ]
+  },
+  {
+    "name": "HR_MEB ESP32 Motor Expansion Board. ",
+    "extensionId": "hrmeb",
+    "iconURL": "extensions/hr_meb/assets/hrmeb.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HONG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/hr_meb/blocks.js",
+    "generator": "extensions/hr_meb/generator.js",
+    "toolbox": "extensions/hr_meb/toolbox.js",
+    "translations": "extensions/hr_meb/translations.js",
+    "tags": [
+      "shield"
+    ]
+  },
+  {
+    "name": "Huskylens",
+    "extensionId": "tubitv2husky",
+    "iconURL": "extensions/huskylens/assets/huskylens.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HONG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/huskylens/blocks.js",
+    "generator": "extensions/huskylens/generator.js",
+    "toolbox": "extensions/huskylens/toolbox.js",
+    "translations": "extensions/huskylens/translations.js",
+    "tags": [
+      "kit"
+    ]
+  },
+  {
+    "name": "Insert Source Code",
+    "extensionId": "insertSourceCode",
+    "iconURL": "extensions/insertSourceCode/assets/insertSourceCode.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/insertSourceCode/blocks.js",
+    "generator": "extensions/insertSourceCode/generator.js",
+    "toolbox": "extensions/insertSourceCode/toolbox.js",
+    "translations": "extensions/insertSourceCode/translations.js",
+    "tags": [
+      "other"
+    ]
+  },
+  {
+    "name": "IR Remote Receiver",
+    "extensionId": "irRemoteReceiver",
+    "iconURL": "extensions/irRemoteReceiver/assets/irRemoteReceiver.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/irRemoteReceiver/blocks.js",
+    "generator": "extensions/irRemoteReceiver/generator.js",
+    "toolbox": "extensions/irRemoteReceiver/toolbox.js",
+    "translations": "extensions/irRemoteReceiver/translations.js",
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "name": "紅外線收發感測器",
+    "extensionId": "tubitv2irprox",
+    "iconURL": "extensions/irprox/assets/tubitv2irprox.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HUNG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/irprox/blocks.js",
+    "generator": "extensions/irprox/generator.js",
+    "toolbox": "extensions/irprox/toolbox.js",
+    "translations": "extensions/irprox/translations.js",
+    "tags": [
+      "sensor"
+    ]
+  },
+  {
+    "name": "Common high power dual motor drive module.",
+    "extensionId": "l298n",
+    "iconURL": "extensions/l298n/assets/l298n.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "Liang",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/l298n/blocks.js",
+    "generator": "extensions/l298n/generator.js",
+    "toolbox": "extensions/l298n/toolbox.js",
+    "translations": "extensions/l298n/translations.js",
+    "tags": [
+      "actuator"
+    ]
+  },
+  {
+    "name": "1602 LCD",
+    "extensionId": "lcd",
+    "iconURL": "extensions/lcd/assets/lcd.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp8266",
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/lcd/blocks.js",
+    "generator": "extensions/lcd/generator.js",
+    "toolbox": "extensions/lcd/toolbox.js",
+    "translations": "extensions/lcd/translations.js",
+    "tags": [
+      "display"
+    ]
+  },
+  {
+    "name": "光照感測器",
+    "extensionId": "tubitv2lightsensor",
+    "iconURL": "extensions/light/assets/tubitv2lightsensor.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HUNG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/light/blocks.js",
+    "generator": "extensions/light/generator.js",
+    "toolbox": "extensions/light/toolbox.js",
+    "translations": "extensions/light/translations.js",
+    "tags": [
+      "sensor"
+    ]
+  },
+  {
+    "name": "MAX30102 Sensor",
+    "extensionId": "max30102",
+    "iconURL": "extensions/max30102/assets/max30102.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/max30102/blocks.js",
+    "generator": "extensions/max30102/generator.js",
+    "toolbox": "extensions/max30102/toolbox.js",
+    "translations": "extensions/max30102/translations.js",
+    "tags": [
+      "sensor"
+    ]
+  },
+  {
+    "name": "MAX6675 Module",
+    "extensionId": "max6675",
+    "iconURL": "extensions/max6675/assets/max6675.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/max6675/blocks.js",
+    "generator": "extensions/max6675/generator.js",
+    "toolbox": "extensions/max6675/toolbox.js",
+    "translations": "extensions/max6675/translations.js",
+    "tags": [
+      "sensor"
+    ]
+  },
+  {
+    "name": "MFRC-522 Module",
+    "extensionId": "mfrc522",
+    "iconURL": "extensions/mfrc522/assets/mfrc522.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/mfrc522/blocks.js",
+    "generator": "extensions/mfrc522/generator.js",
+    "toolbox": "extensions/mfrc522/toolbox.js",
+    "translations": "extensions/mfrc522/translations.js",
+    "tags": [
+      "other"
+    ]
+  },
+  {
+    "name": "More Comments",
+    "extensionId": "moreComments",
+    "iconURL": "extensions/moreComments/assets/moreComments.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/moreComments/blocks.js",
+    "generator": "extensions/moreComments/generator.js",
+    "toolbox": "extensions/moreComments/toolbox.js",
+    "translations": "extensions/moreComments/translations.js",
+    "tags": [
+      "other"
+    ]
+  },
+  {
+    "name": "MPU6050 Sensor",
+    "extensionId": "mpu6050",
+    "iconURL": "extensions/mpu6050/assets/mpu6050.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/mpu6050/blocks.js",
+    "generator": "extensions/mpu6050/generator.js",
+    "toolbox": "extensions/mpu6050/toolbox.js",
+    "translations": "extensions/mpu6050/translations.js",
+    "tags": [
+      "sensor"
+    ]
+  },
+  {
+    "name": "氣體感測器",
+    "extensionId": "tubitv2mq2",
+    "iconURL": "extensions/mq2/assets/tubitv2mq2.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HUNG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/mq2/blocks.js",
+    "generator": "extensions/mq2/generator.js",
+    "toolbox": "extensions/mq2/toolbox.js",
+    "translations": "extensions/mq2/translations.js",
+    "tags": [
+      "sensor"
+    ]
+  },
+  {
+    "name": "2.4G RF transceiver module.",
+    "extensionId": "nrf24l01",
+    "iconURL": "extensions/nrf24l01/assets/nrf24l01.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp8266",
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/nrf24l01/blocks.js",
+    "generator": "extensions/nrf24l01/generator.js",
+    "toolbox": "extensions/nrf24l01/toolbox.js",
+    "translations": "extensions/nrf24l01/translations.js",
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "name": "I2C oled display based on SSD1306 drivers.",
+    "extensionId": "oled",
+    "iconURL": "extensions/oled/assets/oled.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/oled/blocks.js",
+    "generator": "extensions/oled/generator.js",
+    "toolbox": "extensions/oled/toolbox.js",
+    "translations": "extensions/oled/translations.js",
+    "tags": [
+      "display"
+    ]
+  },
+  {
+    "name": "OpenAI",
+    "extensionId": "openai",
+    "iconURL": "extensions/openai/assets/openai.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "translations": "extensions/openai/translations.js",
+    "main": "extensions/openai/main.js",
+    "tags": [
+      "other"
+    ]
+  },
+  {
+    "name": "Passive Buzzer",
+    "extensionId": "passiveBuzzer",
+    "iconURL": "extensions/passiveBuzzer/assets/passiveBuzzer.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/passiveBuzzer/blocks.js",
+    "generator": "extensions/passiveBuzzer/generator.js",
+    "toolbox": "extensions/passiveBuzzer/toolbox.js",
+    "translations": "extensions/passiveBuzzer/translations.js",
+    "main": "extensions/passiveBuzzer/main.js",
+    "tags": [
+      "actuator"
+    ]
+  },
+  {
+    "name": "PCA9685 Module",
+    "extensionId": "pca9685",
+    "iconURL": "extensions/pca9685/assets/pca9685.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/pca9685/blocks.js",
+    "generator": "extensions/pca9685/generator.js",
+    "toolbox": "extensions/pca9685/toolbox.js",
+    "translations": "extensions/pca9685/translations.js",
+    "tags": [
+      "other"
+    ]
+  },
+  {
+    "name": "PID Control",
+    "extensionId": "tubitv2pid",
+    "iconURL": "extensions/pid/assets/pid.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HONG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/pid/blocks.js",
+    "generator": "extensions/pid/generator.js",
+    "toolbox": "extensions/pid/toolbox.js",
+    "translations": "extensions/pid/translations.js",
+    "tags": [
+      "kit"
+    ]
+  },
+  {
+    "name": "PS2 Remote Control",
+    "extensionId": "ps2",
+    "iconURL": "extensions/ps2/assets/ps2.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/ps2/blocks.js",
+    "generator": "extensions/ps2/generator.js",
+    "toolbox": "extensions/ps2/toolbox.js",
+    "translations": "extensions/ps2/translations.js",
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "name": "人體紅外線感測器",
+    "extensionId": "tubitv2pyro",
+    "iconURL": "extensions/pyro/assets/tubitv2pyro.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HUNG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/pyro/blocks.js",
+    "generator": "extensions/pyro/generator.js",
+    "toolbox": "extensions/pyro/toolbox.js",
+    "translations": "extensions/pyro/translations.js",
+    "tags": [
+      "sensor"
+    ]
+  },
+  {
+    "name": "RGB LED Strip",
+    "extensionId": "rgbLedStrip",
+    "iconURL": "extensions/rgbLedStrip/assets/rgbLedStrip.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp8266",
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/rgbLedStrip/blocks.js",
+    "generator": "extensions/rgbLedStrip/generator.js",
+    "toolbox": "extensions/rgbLedStrip/toolbox.js",
+    "translations": "extensions/rgbLedStrip/translations.js",
+    "tags": [
+      "display"
+    ]
+  },
+  {
+    "name": "SD Card Module",
+    "extensionId": "sdCard",
+    "iconURL": "extensions/sdCard/assets/sdCard.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/sdCard/blocks.js",
+    "generator": "extensions/sdCard/generator.js",
+    "toolbox": "extensions/sdCard/toolbox.js",
+    "translations": "extensions/sdCard/translations.js",
+    "tags": [
+      "other"
+    ]
+  },
+  {
+    "name": "感測裝甲",
+    "extensionId": "sensorarmor",
+    "iconURL": "extensions/sensingarmor/assets/sensorarmor.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HUNG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/sensingarmor/blocks.js",
+    "generator": "extensions/sensingarmor/generator.js",
+    "toolbox": "extensions/sensingarmor/toolbox.js",
+    "translations": "extensions/sensingarmor/translations.js",
+    "tags": [
+      "sensor"
+    ]
+  },
+  {
+    "name": "Servo",
+    "extensionId": "servo",
+    "iconURL": "extensions/servo/assets/servo.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "microbit",
+      "microbitV2"
+    ],
+    "blocks": "extensions/servo/blocks.js",
+    "generator": "extensions/servo/generator.js",
+    "toolbox": "extensions/servo/toolbox.js",
+    "translations": "extensions/servo/translations.js",
+    "tags": [
+      "actuator"
+    ]
+  },
+  {
+    "name": "Sharp IR Sensor",
+    "extensionId": "sharpIR",
+    "iconURL": "extensions/sharpIR/assets/sharpIR.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/sharpIR/blocks.js",
+    "generator": "extensions/sharpIR/generator.js",
+    "toolbox": "extensions/sharpIR/toolbox.js",
+    "translations": "extensions/sharpIR/translations.js",
+    "tags": [
+      "sensor"
+    ]
+  },
+  {
+    "name": "Shift Digit Display",
+    "extensionId": "shiftDigitDisplay",
+    "iconURL": "extensions/shiftDigitDisplay/assets/shiftDigitDisplay.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp8266",
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/shiftDigitDisplay/blocks.js",
+    "generator": "extensions/shiftDigitDisplay/generator.js",
+    "toolbox": "extensions/shiftDigitDisplay/toolbox.js",
+    "translations": "extensions/shiftDigitDisplay/translations.js",
+    "tags": [
+      "display"
+    ]
+  },
+  {
+    "name": "Software Serial",
+    "extensionId": "softwareSerial",
+    "iconURL": "extensions/softwareSerialport/assets/softwareSerial.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/softwareSerialport/blocks.js",
+    "generator": "extensions/softwareSerialport/generator.js",
+    "toolbox": "extensions/softwareSerialport/toolbox.js",
+    "translations": "extensions/softwareSerialport/translations.js",
+    "tags": [
+      "other"
+    ]
+  },
+  {
+    "name": "聲音感測器",
+    "extensionId": "tubitv2sonudsensor",
+    "iconURL": "extensions/sound/assets/tubitv2sonudsensor.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HUNG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/sound/blocks.js",
+    "generator": "extensions/sound/generator.js",
+    "toolbox": "extensions/sound/toolbox.js",
+    "translations": "extensions/sound/translations.js",
+    "tags": [
+      "sensor"
+    ]
+  },
+  {
+    "name": "Color sensor module based on TCS3200.",
+    "extensionId": "tcs3200",
+    "iconURL": "extensions/tcs3200/assets/tcs3200.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560"
+    ],
+    "blocks": "extensions/tcs3200/blocks.js",
+    "generator": "extensions/tcs3200/generator.js",
+    "toolbox": "extensions/tcs3200/toolbox.js",
+    "translations": "extensions/tcs3200/translations.js",
+    "tags": [
+      "sensor"
+    ]
+  },
+  {
+    "name": "TCS3472",
+    "extensionId": "tubitv2tcs3472",
+    "iconURL": "extensions/tcs3472/assets/tcs3472.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HONG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/tcs3472/blocks.js",
+    "generator": "extensions/tcs3472/generator.js",
+    "toolbox": "extensions/tcs3472/toolbox.js",
+    "translations": "extensions/tcs3472/translations.js",
+    "tags": [
+      "kit"
+    ]
+  },
+  {
+    "name": "U8g2 is a general graphics library for multiple screens, which is suitable for LCD (base on ST7920) or OLED (base on SSD1306) screens.",
+    "extensionId": "u8g2",
+    "iconURL": "extensions/u8g2/assets/u8g2.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "ArthurZheng",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp8266",
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/u8g2/blocks.js",
+    "generator": "extensions/u8g2/generator.js",
+    "toolbox": "extensions/u8g2/toolbox.js",
+    "translations": "extensions/u8g2/translations.js",
+    "tags": [
+      "display"
+    ]
+  },
+  {
+    "name": "Ultrasonic",
+    "extensionId": "ultrasonic",
+    "iconURL": "extensions/ultrasonic/assets/ultrasonic.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "Liang",
+    "supportDevice": [
+      "arduinoUno",
+      "arduinoNano",
+      "arduinoLeonardo",
+      "arduinoMega2560",
+      "arduinoEsp32",
+      "arduinoEsp8266"
+    ],
+    "blocks": "extensions/ultrasonic/blocks.js",
+    "generator": "extensions/ultrasonic/generator.js",
+    "toolbox": "extensions/ultrasonic/toolbox.js",
+    "translations": "extensions/ultrasonic/translations.js",
+    "main": "extensions/ultrasonic/main.js",
+    "tags": [
+      "sensor"
+    ]
+  },
+  {
+    "name": "V7RC Remote",
+    "extensionId": "tubitv2v7rc",
+    "iconURL": "extensions/v7rc/assets/v7rc.png",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HONG TU 鴻兔科技 / YC",
+    "supportDevice": [
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/v7rc/blocks.js",
+    "generator": "extensions/v7rc/generator.js",
+    "toolbox": "extensions/v7rc/toolbox.js",
+    "translations": "extensions/v7rc/translations.js",
+    "tags": [
+      "communication"
+    ]
+  },
+  {
+    "name": "tubitv2var.description",
+    "extensionId": "tubitv2var",
+    "iconURL": "extensions/variable/assets/TUBITV2.jpg",
+    "description": "",
+    "featured": true,
+    "disabled": false,
+    "collaborator": "HONG TU 鴻兔科技",
+    "supportDevice": [
+      "arduinoEsp32"
+    ],
+    "blocks": "extensions/variable/blocks.js",
+    "generator": "extensions/variable/generator.js",
+    "toolbox": "extensions/variable/toolbox.js",
+    "translations": "extensions/variable/translations.js",
+    "hide": true,
+    "tags": [
+      "kit"
+    ]
+  }
+]

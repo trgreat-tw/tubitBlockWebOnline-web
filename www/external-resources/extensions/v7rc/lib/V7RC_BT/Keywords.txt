@@ -1,0 +1,23 @@
+#######################################
+# Syntax Coloring Map For YourLibraryName
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+V7RC_BT	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+setupBLE	KEYWORD2
+loopBLE	KEYWORD2
+connect	KEYWORD2
+readdata 	KEYWORD2
+setMode	KEYWORD2
+readSRTdata	KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
+

@@ -1,0 +1,67 @@
+########################################
+# Syntax Coloring Map For TuBitCore
+########################################
+
+########################################
+# Datatypes (KEYWORD1)
+########################################
+TuBitCore	KEYWORD1
+ButtonT      KEYWORD1
+MotorNum     KEYWORD1
+ServoNum     KEYWORD1
+
+########################################
+# Methods and Functions (KEYWORD2)
+########################################
+init                  KEYWORD2
+begin                 KEYWORD2
+
+readButton            KEYWORD2
+readButtonEdge        KEYWORD2
+
+setServoPulseMs       KEYWORD2
+setServoAngle         KEYWORD2
+
+setMotorPwm           KEYWORD2
+setMotorsPwm          KEYWORD2
+stopAllMotors         KEYWORD2
+
+readMotorDeg          KEYWORD2
+readMotorEnc          KEYWORD2
+resetEnc              KEYWORD2
+setMotorEnc           KEYWORD2
+setEncoderCPR         KEYWORD2
+
+initPID               KEYWORD2
+updatePID             KEYWORD2
+computePID            KEYWORD2
+setPIDTunings         KEYWORD2
+
+setMotorSpeed         KEYWORD2
+setMotorPosition      KEYWORD2
+
+getMaxVelocity        KEYWORD2
+averageSpeed          KEYWORD2
+toPolar               KEYWORD2
+toCartesian           KEYWORD2
+syncPidReference      KEYWORD2
+
+########################################
+# Constants and Literals (LITERAL1)
+########################################
+Button_A    LITERAL1
+Button_B    LITERAL1
+
+M1          LITERAL1
+M2          LITERAL1
+M3          LITERAL1
+M4          LITERAL1
+
+S0          LITERAL1
+S1          LITERAL1
+S2          LITERAL1
+S3          LITERAL1
+S4          LITERAL1
+S5          LITERAL1
+S6          LITERAL1
+S7          LITERAL1

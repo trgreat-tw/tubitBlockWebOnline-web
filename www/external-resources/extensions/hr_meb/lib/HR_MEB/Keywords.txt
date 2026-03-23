@@ -1,0 +1,32 @@
+﻿#######################################
+# Syntax Coloring Map For YourLibraryName
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+HR_MEB	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+set	KEYWORD2
+
+readButton	KEYWORD2
+
+SetMotorDir	KEYWORD2
+MotorRun	KEYWORD2
+ALLMotorControl	KEYWORD2
+StopAllMotor	KEYWORD2
+
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+M1	LITERAL1
+M2	LITERAL1
+M3	LITERAL1
+M4	LITERAL1
+

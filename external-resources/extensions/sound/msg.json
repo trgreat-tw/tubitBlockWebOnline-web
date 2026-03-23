@@ -1,0 +1,7 @@
+{
+    "TUBITV2SOUNDSENSOR_CATEGORY": "Sound Sensor",
+    "TUBITV2SOUNDSENSOR_INIT": "Set sound sensor pin %1",
+    "TUBITV2SOUNDSENSOR_READ": "Read %1 sound sensor %2 signal",
+    "TUBITV2SOUNDSENSOR_TYPED": "Digital",
+    "TUBITV2SOUNDSENSOR_TYPEA": "Analog"
+}

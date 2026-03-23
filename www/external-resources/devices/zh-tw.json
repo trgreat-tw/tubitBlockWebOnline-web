@@ -1,0 +1,72 @@
+[
+    {
+        "isOrdered": true,
+        "name": "TU:bit V2",
+        "deviceId": "tubitv2_arduinoEsp32",
+        "manufactor": "鴻兔科技",
+        "learnMore": "https://www.trgreat.com/",
+        "typeList": [
+            "arduino"
+        ],
+        "type": "arduino",
+        "iconURL": "devices/TUBITV2/assets/TUBITV2.png",
+        "description": "由鴻兔科技生產製造專為教育機器人開發的控制板。",
+        "featured": true,
+        "disabled": false,
+        "bluetoothRequired": false,
+        "serialportRequired": true,
+        "pnpidList": [
+            "USB\\VID_10C4&PID_EA60",
+            "USB\\VID_1A86&PID_7523"
+        ],
+        "connectionIconURL": "devices/TUBITV2/assets/TUBITV2-illustration.svg",
+        "connectionSmallIconURL": "devices/TUBITV2/assets/TUBITV2-small.svg",
+        "programMode": [
+            "realtime",
+            "upload"
+        ],
+        "defaultProgramMode": "upload",
+        "defaultBaudRate": "115200",
+        "programLanguage": [
+            "block",
+            "c"
+        ],
+        "tags": [
+            "kit"
+        ],
+        "helpLink": "",
+        "deviceExtensions": [
+            "tubitv2",
+            "tubitv2var",
+            "tubitv2b",
+            "tubitv2o",
+            "tubitv2m",
+            "tubitv2sm"
+        ],
+        "deviceExtensionsCompatible": "arduinoEsp32"
+    },
+    {
+        "deviceId": "arduinoUno"
+    },
+    {
+        "deviceId": "arduinoNano"
+    },
+    {
+        "deviceId": "arduinoMega2560"
+    },
+    {
+        "deviceId": "arduinoEsp32"
+    },
+    {
+        "deviceId": "arduinoEsp8266NodeMCU"
+    },
+    {
+        "deviceId": "microbit"
+    },
+    {
+        "deviceId": "microbitV2"
+    },
+    {
+        "deviceId": "arduinoRaspberryPiPico"
+    }
+]

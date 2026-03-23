@@ -1,0 +1,15 @@
+{
+"TUBITV2BLYNK_CATEGORY": "BLYNK IoT",
+            "TUBITV2BLYNK_TEMPLATE": "Initialize BLYNK template ID %1 template name %2 template authorization code %3 WIFI SSID %4 WIFI password %5",
+            "TUBITV2BLYNK_TIMEREVENT": "When BLYNK updates data",
+            "TUBITV2BLYNK_WRITE": "When virtual pin %1 receives data",
+            "TUBITV2BLYNK_ONCONNECTED": "When BLYNK is connected",
+            "TUBITV2BLYNK_VIRTUALWRITE": "Set virtual pin %1 output to %2",
+            "TUBITV2BLYNK_BEGIN": "Set BLYNK transmission interval to %1 ms",
+            "TUBITV2BLYNK_RUN": "BLYNK run",
+            "TUBITV2BLYNK_PARAM": "Read virtual pin data %1",
+            "TUBITV2BLYNK_PARAM_I":"Integer",
+            "TUBITV2BLYNK_PARAM_D":"Double",
+            "TUBITV2BLYNK_PARAM_F":"Float",
+            "TUBITV2BLYNK_PARAM_S":"String"
+}

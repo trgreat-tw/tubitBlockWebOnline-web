@@ -1,0 +1,13 @@
+{
+    "updater": {
+        "default": {
+            "provider": "github",
+            "repo": "tubitblockcc/external-resources-v3"
+        },
+        "cn": {
+            "provider": "gitee",
+            "repo": "tubitblockcc/external-resources-v3"
+        }
+    },
+    "version": "1.0.0"
+}

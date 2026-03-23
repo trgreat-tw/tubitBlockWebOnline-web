@@ -1,0 +1,7 @@
+{
+"TUBITTASK_CATEGORY": "ESP32 Task",
+"TUBITTASK_INIT": "ESP32 Task Init %1 Core: %2",
+"TUBITTASKCODERUN": "Task Code: %1",
+"TUBITV2_CORE0":"0",
+"TUBITV2_CORE1":"1"
+}

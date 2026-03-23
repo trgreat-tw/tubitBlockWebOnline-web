@@ -1,0 +1,12 @@
+{
+    "HRMEB_CATEGORY": "HR_MEB",
+    "HRMEB_SET":"HR_MEB INIT motor freq %1Hz",
+    "HRMEB_READBUTTON":" HR_MEB read button ",
+    "HRMEB_MOTOR":"motor %1 speed %2",
+    "HRMEB_MOTOR_ALLRUN":"all motor run M1 %1 M2 %2 M3 %3 M4 %4",
+    "HRMEB_MOTOR_STOP":"all motor stop",
+    "HRMEB_MOTOR_M1":"M1",
+    "HRMEB_MOTOR_M2":"M2",
+    "HRMEB_MOTOR_M3":"M3",
+    "HRMEB_MOTOR_M4":"M4"
+}

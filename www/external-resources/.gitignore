@@ -1,0 +1,21 @@
+# OSX
+.DS_Store
+
+# Editor
+.vscode
+
+# Build files
+translations/
+
+# npm file
+node_modules/
+
+# Packaged files
+dist/
+
+# arduino staging and packages folders
+devices/*/arduinoData/packages
+devices/*/arduinoData/staging
+
+# Webpack dists
+*.bundle.js

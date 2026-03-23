@@ -1,0 +1,8 @@
+Package: openblock-external-resources
+Version: 0.0.0
+Section: misc
+Priority: optional
+Architecture: all
+Maintainer: ArthurZheng <arthurzheng@openblock.cc>
+Description: Provides external resources to openblock.
+Installed-Size: 0

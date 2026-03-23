@@ -1,0 +1,54 @@
+###########################################
+
+# Syntax Coloring Map For NNforduino
+
+###########################################
+
+
+###########################################
+
+# Datatypes (KEYWORD1)
+
+###########################################
+
+
+NNforduino                  	KEYWORD1
+
+
+###########################################
+
+# Methods and Functions (KEYWORD2)
+
+###########################################
+
+OnelayerNN	KEYWORD2
+
+InitONN	KEYWORD2
+
+OutONN	KEYWORD2
+
+LearnONN	KEYWORD2
+
+TwolayerNN	KEYWORD2
+
+InitTNN	KEYWORD2
+
+OutTNN	KEYWORD2
+
+LearnTNN	KEYWORD2
+RNN	KEYWORD2
+OutRNN	KEYWORD2
+w0	KEYWORD2
+w1	KEYWORD2
+b0	KEYWORD2
+b1	KEYWORD2
+###########################################
+
+# Constants (LITERAL1)
+
+###########################################
+
+RELU	LITERAL1
+CROSSIN	LITERAL1
+NONE	LITERAL1
+RAN	LITERAL1

@@ -1,0 +1,9 @@
+{
+    "TUBITV2_BUTTON_CATEGORY": "TUBITV2_Button",
+    "TUBITV2_BUTTON": "ReadButton%1",
+    "TUBITV2_BUTTON_A": "A",
+    "TUBITV2_BUTTON_B": "B",
+    "TUBITV2_BUTTONTS": "ReadButton%1 when %2",
+    "TUBITV2_BUTTON_TSA":"On pressed",
+    "TUBITV2_BUTTON_TSB":"On release"
+}

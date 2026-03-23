@@ -1,0 +1,19 @@
+{
+  "name": "tubitblock-desktop",
+  "productName": "TUbitBlockDesktop",
+  "description": "TUbitBlock as a self-contained desktop application",
+  "author": "Openblock.cc Team <contact@tubitblock.cc> (http://www.tubitblock.cc/)",
+  "version": "2.6.3",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/tubitblockcc/tubitblock-desktop.git"
+  },
+  "dependencies": {
+    "bytes": "^3.1.2",
+    "tubitblock-link": "^0.2.0-prerelease.20250608112023",
+    "tubitblock-resource": "^0.2.0-prerelease.20250302101433",
+    "source-map-support": "^0.5.19"
+  },
+  "main": "main.js"
+}

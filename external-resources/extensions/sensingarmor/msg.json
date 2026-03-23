@@ -1,0 +1,7 @@
+{
+    "TUBITV2MQ2_CATEGORY": "Sound Sensor",
+    "TUBITV2MQ2_INIT": "Set sound sensor pin %1",
+    "TUBITV2MQ2_READ": "Read %1 sound sensor %2 signal",
+    "TUBITV2MQ2_TYPED": "Digital",
+    "TUBITV2MQ2_TYPEA": "Analog"
+}

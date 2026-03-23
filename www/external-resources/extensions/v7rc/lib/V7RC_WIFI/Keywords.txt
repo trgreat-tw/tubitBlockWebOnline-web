@@ -1,0 +1,23 @@
+#######################################
+# Syntax Coloring Map For YourLibraryName
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+V7RC_WIFI	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+setupWIFI	KEYWORD2
+udpCheck	KEYWORD2
+readdata	KEYWORD2
+setMode	KEYWORD2
+readSRTdata	KEYWORD2
+#######################################
+# Constants (LITERAL1)
+#######################################
+

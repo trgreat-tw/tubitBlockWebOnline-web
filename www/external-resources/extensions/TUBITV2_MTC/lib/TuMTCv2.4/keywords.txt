@@ -1,0 +1,38 @@
+#######################################
+# Syntax Coloring Map For TuMTC
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+TuMTC	KEYWORD1
+TuMtcInterruptCallback	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+setMtcXytConstants	KEYWORD2
+setMtcParameters	KEYWORD2
+adjustMtcConstantsAdd	KEYWORD2
+angleToXY	KEYWORD2
+driveVectorOpen	KEYWORD2
+driveVectorClosed	KEYWORD2
+moveBody	KEYWORD2
+moveSCurve	KEYWORD2
+moveCurveSCurve	KEYWORD2
+bnoMoveOpen	KEYWORD2
+bnoMoveClosed	KEYWORD2
+setInterruptCallback	KEYWORD2
+syncPidReference	KEYWORD2
+distributeOpenLoop	KEYWORD2
+distributeClosedLoop	KEYWORD2
+sendPwm	KEYWORD2
+sendSpeed	KEYWORD2
+easeInOut	KEYWORD2
+wrap180	KEYWORD2
+
+#######################################
+# Constants and Macros (LITERAL1)
+#######################################
+PI	LITERAL1
+M_PI	LITERAL1

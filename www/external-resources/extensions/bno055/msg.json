@@ -1,0 +1,9 @@
+{
+    "TUBITV2BNO055_CATEGORY":"BNO055 Sensor",
+    "TUBITV2BON055_INIT": "Initialize BNO055 sensor",
+    "TUBITV2BNO055_OIU": "Define other I2C update block %1",
+    "TUBITV2BNO055_READ": "Read BNO055 %1 angle",
+    "TUBITV2BNO055_X": "X (roll)",
+    "TUBITV2BNO055_Y": "Y (pitch)",
+    "TUBITV2BNO055_Z": "Z (yaw)"
+}

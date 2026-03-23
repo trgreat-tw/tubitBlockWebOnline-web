@@ -1,0 +1,40 @@
+#######################################
+# Syntax Coloring Map For TuDTC
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+TuDTC	KEYWORD1
+TuDtcInterruptCallback	KEYWORD1
+LFParams	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+initIRsensor	KEYWORD2
+readIR	KEYWORD2
+setPosMapping	KEYWORD2
+getLineError	KEYWORD2
+setConstants	KEYWORD2
+adjustConstantsAdd	KEYWORD2
+setInterruptCallback	KEYWORD2
+driveVectorOpen	KEYWORD2
+driveVectorClosed	KEYWORD2
+LineFollow_Init	KEYWORD2
+LineFollow_Update	KEYWORD2
+LineFollow_Stop	KEYWORD2
+LineFollow_Running	KEYWORD2
+LineFollow_Distance	KEYWORD2
+moveSCurve	KEYWORD2
+moveSCurve_lineFlow	KEYWORD2
+setMotorConfig	KEYWORD2
+turnBno	KEYWORD2
+setTurnPid	KEYWORD2
+
+#######################################
+# Constants and Macros (LITERAL1)
+#######################################
+CTRL_TICK_HZ	LITERAL1
+YDATA_	LITERAL1
+TURNDATA_	LITERAL1

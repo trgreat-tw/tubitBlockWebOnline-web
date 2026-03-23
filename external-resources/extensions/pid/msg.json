@@ -1,0 +1,14 @@
+{
+    "TUBITV2PID_CATEGORY": "PID",
+    "TUBITV2PID_CREATE":"myPID%1 input:%2 output:%3 setpoint:%4 , P:%5 I:%6 D:%7 ",
+    "TUBITV2PID_SET":"myPID%1 set , SampleTime %2 , OutputLimits %3 ~ %4 ",
+    "TUBITV2PID_COMPUTE":"myPID%1 compute",
+    "TUBITV2_PID_1":"1",
+    "TUBITV2_PID_2":"2",
+    "TUBITV2_PID_3":"3",
+    "TUBITV2_PID_4":"4",
+    "TUBITV2_PID_5":"5",
+    "TUBITV2_PID_6":"6",
+    "TUBITV2_PID_7":"7",
+    "TUBITV2_PID_8":"8"
+}

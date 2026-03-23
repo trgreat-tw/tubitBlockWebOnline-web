@@ -1,0 +1,31 @@
+#######################################
+# Syntax Coloring Map For TuOTC
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+TuOTC	KEYWORD1
+TuOtcInterruptCallback	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+setOtcXytConstants	KEYWORD2
+setOtcParameters	KEYWORD2
+adjustOtcConstantsAdd	KEYWORD2
+angleToXY	KEYWORD2
+driveVectorOpen	KEYWORD2
+driveVectorClosed	KEYWORD2
+moveBody	KEYWORD2
+moveSCurve	KEYWORD2
+moveCurveSCurve	KEYWORD2
+bnoMoveOpen	KEYWORD2
+bnoMoveClosed	KEYWORD2
+setInterruptCallback	KEYWORD2
+syncPidReference	KEYWORD2
+
+#######################################
+# Constants and Macros (LITERAL1)
+#######################################
+wrap180	LITERAL1

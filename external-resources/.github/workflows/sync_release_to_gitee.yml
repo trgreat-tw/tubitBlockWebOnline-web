@@ -1,0 +1,82 @@
+name: Sync Release to Gitee
+
+on:
+  release:
+    types: [published]
+
+jobs:
+  sync_release:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+
+    - name: Get release info
+      id: get_release_info
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const response = await github.rest.repos.getReleaseByTag({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            tag: context.payload.release.tag_name
+          });
+          const assets = JSON.stringify(response.data.assets);
+          core.setOutput('assets', assets);
+          core.setOutput('tag_name', response.data.tag_name);
+          core.setOutput('name', response.data.name);
+          core.setOutput('body', response.data.body);
+          return response.data;
+
+    - name: Download release assets
+      run: |
+        assets=$(echo '${{ steps.get_release_info.outputs.assets }}' | jq -r '.[] | .browser_download_url')
+        for url in $assets; do
+          wget -q $url -P ./downloads
+        done
+
+    - name: Create Gitee Release
+      id: create_gitee_release
+      uses: actions/github-script@v6
+      with:
+        script: |
+          const response = await fetch('https://gitee.com/api/v5/repos/tubitblockcc/external-resources-v3/releases', {
+            method: 'POST',
+            headers: {
+              'Content-Type': 'application/json',
+              'Authorization': `Bearer ${process.env.GITEE_TOKEN}`
+            },
+            body: JSON.stringify({
+              access_token: process.env.GITEE_TOKEN,
+              tag_name: `${{ steps.get_release_info.outputs.tag_name }}`,
+              name: `${{ steps.get_release_info.outputs.name }}`,
+              body: `${{ steps.get_release_info.outputs.body }}`,
+              target_commitish: 'main'
+            })
+          });
+
+          if (!response.ok) {
+            const error = await response.json();
+            core.setFailed(`Error creating Gitee release: ${error.message}`);
+          } else {
+            const data = await response.json();
+            core.setOutput('release_id', data.id); // Set output with Gitee release ID
+            console.log('Gitee release created successfully:', data);
+          }
+      env:
+        GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}
+
+    - name: Upload assets to Gitee Release
+      run: |
+          releaseId="${{ steps.create_gitee_release.outputs.release_id }}"
+          for file in ./downloads/*; do
+          echo ${file}
+          echo "https://gitee.com/api/v5/repos/tubitblockcc/external-resources-v3/releases/$releaseId/attach_files"
+          curl -X POST \
+              -F "access_token=${{ secrets.GITEE_TOKEN }}" \
+              -F "file=@${file}" \
+              "https://gitee.com/api/v5/repos/tubitblockcc/external-resources-v3/releases/$releaseId/attach_files"
+          done
+      env:
+          GITEE_TOKEN: ${{ secrets.GITEE_TOKEN }}

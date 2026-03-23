@@ -1,0 +1,25 @@
+﻿#######################################
+# Syntax Coloring Map For YourLibraryName
+#######################################
+
+#######################################
+# Datatypes (KEYWORD1)
+#######################################
+
+SensingArmor	KEYWORD1
+
+#######################################
+# Methods and Functions (KEYWORD2)
+#######################################
+
+InitSensor	KEYWORD2
+ReadSensor	KEYWORD2
+SetRange	KEYWORD2
+ReadPPStrike	KEYWORD2
+
+#######################################
+# Constants (LITERAL1)
+#######################################
+
+
+
