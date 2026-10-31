@@ -478,7 +478,7 @@
       "arduinoEsp8266"
     ],
     "blocks": "extensions/dht/blocks.js",
-    "generator": "extensions/dht/generator.js",
+    "generator": "extensions/dht/generator.js?v=20261031-dht-begin-lib147-1",
     "toolbox": "extensions/dht/toolbox.js",
     "translations": "extensions/dht/translations.js",
     "tags": [

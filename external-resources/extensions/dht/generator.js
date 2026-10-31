@@ -9,6 +9,7 @@ function registerGenerators (Blockly) {
 
         Blockly.Arduino.includes_.dht_init = `#include <DHT.h>`;
         Blockly.Arduino.definitions_[`dht_init_${no}`] = `DHT dht_${no}(${pin}, ${model});`;
+        Blockly.Arduino.setups_[`dht_init_${no}`] = `dht_${no}.begin();`;
         return '';
     };
 
