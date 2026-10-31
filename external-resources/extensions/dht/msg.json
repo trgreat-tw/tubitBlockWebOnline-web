@@ -1,6 +1,13 @@
 {
-    "DHT_CATEGORY": "DHT",
-    "DHT_INIT": "init dht %1 pin %2 model %3",
-    "DHT_READ_TEMPERATURE": "dht %1 read temperature %2",
-    "DHT_READ_HUMIDITY": "dht %1 read humidity"
+  "DHT_CATEGORY": "DHT",
+  "DHT_INIT": "init dht %1 pin %2 model %3",
+  "DHT_READ_TEMPERATURE": "dht %1 read temperature %2",
+  "DHT_READ_HUMIDITY": "dht %1 read humidity",
+  "INIT_GUARD_TUBIT_REQUIRED": "Place the \"TUBIT initialization\" block under the \"when Arduino starts\" block.",
+  "INIT_GUARD_SENSOR_REQUIRED": "Place the \"%1 %2 initialization\" block under \"when Arduino starts\", before any blocks that read or use the module.",
+  "INIT_GUARD_INIT_PLACEMENT": "Place the \"%1 %2 initialization\" block directly under \"when Arduino starts\", before loops or conditions.",
+  "INIT_GUARD_OLED_REQUIRED": "First add an OLED display block and put the drawing blocks inside it, or place a clear/update display block before them.",
+  "INIT_GUARD_PIN_SUFFIX": "pin %1",
+  "INIT_GUARD_INVALID_ID": "Enter a non-negative whole-number module ID.",
+  "INIT_GUARD_LABEL_DHT": "DHT Sensor"
 }
